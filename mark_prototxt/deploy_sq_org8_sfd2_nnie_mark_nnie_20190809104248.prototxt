@@ -1,0 +1,22 @@
+name: "SEQ_WIDER_FACE_SFD_deploy"
+input: "data"
+input_shape {
+  dim: 1
+  dim: 3
+  dim: 640
+  dim: 640
+}
+layer {
+  name: "conv1_sq"
+  type: "Convolution"
+  bottom: "data"
+  top: "conv1_sq"
+  convolution_param {
+    num_output: 64
+    kernel_size: 3
+    stride: 2
+    weight_filler {
+      type: "xavier"
+    }
+  }
+}

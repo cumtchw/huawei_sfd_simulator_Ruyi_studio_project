@@ -1,0 +1,50 @@
+digraph cnn_tree {
+data
+[
+        shape = box
+        label = " name : data"
+];
+data -> conv1_sq;
+conv1_sq
+[
+        shape = box
+        label = " name : conv1_sq\n name : relu_conv1_sq"
+];
+conv1_sq -> pool1_sq;
+pool1_sq
+[
+        shape = box
+        label = " name : pool1_sq\n type : Pooling\n bottom : conv1_sq\n top : pool1_sq"
+];
+pool1_sq -> fire2_squeeze1x1;
+fire2_squeeze1x1
+[
+        shape = box
+        label = " name : fire2_squeeze1x1\n name : fire2_relu_squeeze1x1"
+];
+fire2_squeeze1x1 -> fire2_expand1x1;
+fire2_squeeze1x1 -> fire2_expand3x3;
+fire2_expand1x1
+[
+        shape = box
+        label = " name : fire2_expand1x1\n name : fire2_relu_expand1x1"
+];
+fire2_expand1x1 -> fire2_concat;
+fire2_expand3x3
+[
+        shape = box
+        label = " name : fire2_expand3x3\n name : fire2_relu_expand3x3"
+];
+fire2_expand3x3 -> fire2_concat;
+fire2_concat
+[
+        shape = box
+        label = " name : fire2_concat\n type : Concat\n bottom : fire2_expand1x1\n bottom : fire2_expand3x3\n top : fire2_concat"
+];
+fire2_concat -> fire3_squeeze1x1;
+fire3_squeeze1x1
+[
+        shape = box
+        label = " name : fire3_squeeze1x1\n type : Convolution\n bottom : fire2_concat\n top : fire3_squeeze1x1"
+];
+}

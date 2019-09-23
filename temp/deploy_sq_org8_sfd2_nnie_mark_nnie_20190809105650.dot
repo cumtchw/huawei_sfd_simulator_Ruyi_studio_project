@@ -1,0 +1,291 @@
+digraph cnn_tree {
+data
+[
+        shape = box
+        label = " name : data"
+];
+data -> conv1_sq;
+conv1_sq
+[
+        shape = box
+        label = " name : conv1_sq\n name : relu_conv1_sq"
+];
+conv1_sq -> pool1_sq;
+pool1_sq
+[
+        shape = box
+        label = " name : pool1_sq\n type : Pooling\n bottom : conv1_sq\n top : pool1_sq"
+];
+pool1_sq -> fire2_squeeze1x1;
+fire2_squeeze1x1
+[
+        shape = box
+        label = " name : fire2_squeeze1x1\n name : fire2_relu_squeeze1x1"
+];
+fire2_squeeze1x1 -> fire2_expand1x1;
+fire2_squeeze1x1 -> fire2_expand3x3;
+fire2_expand1x1
+[
+        shape = box
+        label = " name : fire2_expand1x1\n name : fire2_relu_expand1x1"
+];
+fire2_expand1x1 -> fire2_concat;
+fire2_expand3x3
+[
+        shape = box
+        label = " name : fire2_expand3x3\n name : fire2_relu_expand3x3"
+];
+fire2_expand3x3 -> fire2_concat;
+fire2_concat
+[
+        shape = box
+        label = " name : fire2_concat\n type : Concat\n bottom : fire2_expand1x1\n bottom : fire2_expand3x3\n top : fire2_concat"
+];
+fire2_concat -> fire3_squeeze1x1;
+fire3_squeeze1x1
+[
+        shape = box
+        label = " name : fire3_squeeze1x1\n name : fire3_relu_squeeze1x1"
+];
+fire3_squeeze1x1 -> fire3_expand1x1;
+fire3_squeeze1x1 -> fire3_expand3x3;
+fire3_expand1x1
+[
+        shape = box
+        label = " name : fire3_expand1x1\n name : fire3_relu_expand1x1"
+];
+fire3_expand1x1 -> fire3_concat;
+fire3_expand3x3
+[
+        shape = box
+        label = " name : fire3_expand3x3\n name : fire3_relu_expand3x3"
+];
+fire3_expand3x3 -> fire3_concat;
+fire3_concat
+[
+        shape = box
+        label = " name : fire3_concat\n type : Concat\n bottom : fire3_expand1x1\n bottom : fire3_expand3x3\n top : fire3_concat"
+];
+fire3_concat -> fire4_squeeze1x1;
+fire4_squeeze1x1
+[
+        shape = box
+        label = " name : fire4_squeeze1x1\n name : fire4_relu_squeeze1x1"
+];
+fire4_squeeze1x1 -> fire4_expand1x1;
+fire4_squeeze1x1 -> fire4_expand3x3;
+fire4_expand1x1
+[
+        shape = box
+        label = " name : fire4_expand1x1\n name : fire4_relu_expand1x1"
+];
+fire4_expand1x1 -> fire4_concat;
+fire4_expand3x3
+[
+        shape = box
+        label = " name : fire4_expand3x3\n name : fire4_relu_expand3x3"
+];
+fire4_expand3x3 -> fire4_concat;
+fire4_concat
+[
+        shape = box
+        label = " name : fire4_concat\n type : Concat\n bottom : fire4_expand1x1\n bottom : fire4_expand3x3\n top : fire4_concat"
+];
+fire4_concat -> fire5_squeeze1x1;
+fire5_squeeze1x1
+[
+        shape = box
+        label = " name : fire5_squeeze1x1\n name : fire5_relu_squeeze1x1"
+];
+fire5_squeeze1x1 -> fire5_expand1x1;
+fire5_squeeze1x1 -> fire5_expand3x3;
+fire5_expand1x1
+[
+        shape = box
+        label = " name : fire5_expand1x1\n name : fire5_relu_expand1x1"
+];
+fire5_expand1x1 -> fire5_concat;
+fire5_expand3x3
+[
+        shape = box
+        label = " name : fire5_expand3x3\n name : fire5_relu_expand3x3"
+];
+fire5_expand3x3 -> fire5_concat;
+fire5_concat
+[
+        shape = box
+        label = " name : fire5_concat\n type : Concat\n bottom : fire5_expand1x1\n bottom : fire5_expand3x3\n top : fire5_concat"
+];
+fire5_concat -> pool5_sq;
+fire5_concat -> fire5_norm;
+pool5_sq
+[
+        shape = box
+        label = " name : pool5_sq\n type : Pooling\n bottom : fire5_concat\n top : pool5_sq"
+];
+pool5_sq -> fire6_squeeze1x1;
+fire6_squeeze1x1
+[
+        shape = box
+        label = " name : fire6_squeeze1x1\n name : fire6_relu_squeeze1x1"
+];
+fire6_squeeze1x1 -> fire6_expand1x1;
+fire6_squeeze1x1 -> fire6_expand3x3;
+fire6_expand1x1
+[
+        shape = box
+        label = " name : fire6_expand1x1\n name : fire6_relu_expand1x1"
+];
+fire6_expand1x1 -> fire6_concat;
+fire6_expand3x3
+[
+        shape = box
+        label = " name : fire6_expand3x3\n name : fire6_relu_expand3x3"
+];
+fire6_expand3x3 -> fire6_concat;
+fire6_concat
+[
+        shape = box
+        label = " name : fire6_concat\n type : Concat\n bottom : fire6_expand1x1\n bottom : fire6_expand3x3\n top : fire6_concat"
+];
+fire6_concat -> fire7_squeeze1x1;
+fire7_squeeze1x1
+[
+        shape = box
+        label = " name : fire7_squeeze1x1\n name : fire7_relu_squeeze1x1"
+];
+fire7_squeeze1x1 -> fire7_expand1x1;
+fire7_squeeze1x1 -> fire7_expand3x3;
+fire7_expand1x1
+[
+        shape = box
+        label = " name : fire7_expand1x1\n name : fire7_relu_expand1x1"
+];
+fire7_expand1x1 -> fire7_concat;
+fire7_expand3x3
+[
+        shape = box
+        label = " name : fire7_expand3x3\n name : fire7_relu_expand3x3"
+];
+fire7_expand3x3 -> fire7_concat;
+fire7_concat
+[
+        shape = box
+        label = " name : fire7_concat\n type : Concat\n bottom : fire7_expand1x1\n bottom : fire7_expand3x3\n top : fire7_concat"
+];
+fire7_concat -> pool7_sq;
+pool7_sq
+[
+        shape = box
+        label = " name : pool7_sq\n type : Pooling\n bottom : fire7_concat\n top : pool7_sq"
+];
+pool7_sq -> fire8_squeeze1x1;
+fire8_squeeze1x1
+[
+        shape = box
+        label = " name : fire8_squeeze1x1\n name : fire8_relu_squeeze1x1"
+];
+fire8_squeeze1x1 -> fire8_expand1x1;
+fire8_squeeze1x1 -> fire8_expand3x3;
+fire8_expand1x1
+[
+        shape = box
+        label = " name : fire8_expand1x1\n name : fire8_relu_expand1x1"
+];
+fire8_expand1x1 -> fire8_concat;
+fire8_expand3x3
+[
+        shape = box
+        label = " name : fire8_expand3x3\n name : fire8_relu_expand3x3"
+];
+fire8_expand3x3 -> fire8_concat;
+fire8_concat
+[
+        shape = box
+        label = " name : fire8_concat\n type : Concat\n bottom : fire8_expand1x1\n bottom : fire8_expand3x3\n top : fire8_concat"
+];
+fire8_concat -> fire9_squeeze1x1;
+fire9_squeeze1x1
+[
+        shape = box
+        label = " name : fire9_squeeze1x1\n name : fire9_relu_squeeze1x1"
+];
+fire9_squeeze1x1 -> fire9_expand1x1;
+fire9_squeeze1x1 -> fire9_expand3x3;
+fire9_expand1x1
+[
+        shape = box
+        label = " name : fire9_expand1x1\n name : fire9_relu_expand1x1"
+];
+fire9_expand1x1 -> fire9_concat;
+fire9_expand3x3
+[
+        shape = box
+        label = " name : fire9_expand3x3\n name : fire9_relu_expand3x3"
+];
+fire9_expand3x3 -> fire9_concat;
+fire9_concat
+[
+        shape = box
+        label = " name : fire9_concat\n name : drop9"
+];
+fire9_concat -> pool5;
+pool5
+[
+        shape = box
+        label = " name : pool5\n type : Pooling\n bottom : fire9_concat\n top : pool5"
+];
+pool5 -> fc6;
+fc6
+[
+        shape = box
+        label = " name : fc6\n name : relu6"
+];
+fc6 -> fc7;
+fc7
+[
+        shape = box
+        label = " name : fc7\n name : relu7"
+];
+fc7 -> conv6_1;
+conv6_1
+[
+        shape = box
+        label = " name : conv6_1\n name : conv6_1_relu"
+];
+conv6_1 -> conv6_2;
+conv6_2
+[
+        shape = box
+        label = " name : conv6_2\n name : conv6_2_relu"
+];
+conv6_2 -> conv7_1;
+conv7_1
+[
+        shape = box
+        label = " name : conv7_1\n name : conv7_1_relu"
+];
+conv7_1 -> conv7_2;
+conv7_2
+[
+        shape = box
+        label = " name : conv7_2\n name : conv7_2_relu"
+];
+fire5_norm
+[
+        shape = box
+        label = " name : fire5_norm\n type : Normalize\n bottom : fire5_concat\n top : fire5_norm"
+];
+fire5_norm -> fire5_norm_mbox_loc;
+fire5_norm_mbox_loc
+[
+        shape = box
+        label = " name : fire5_norm_mbox_loc\n type : Convolution\n bottom : fire5_norm\n top : fire5_norm_mbox_loc"
+];
+fire5_norm_mbox_loc -> fire5_norm_mbox_loc_perm;
+fire5_norm_mbox_loc_perm
+[
+        shape = box
+        label = " name : fire5_norm_mbox_loc_perm\n type : Permute\n bottom : fire5_norm_mbox_loc\n top : fire5_norm_mbox_loc_perm"
+];
+}

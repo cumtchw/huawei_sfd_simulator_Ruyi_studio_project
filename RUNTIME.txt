@@ -1,0 +1,9 @@
+Name: Vop0
+Classify: VOP
+Sub_net_type: 0
+Input: data [Exist] [bond_1][3][640][640] 
+Output: fire5_norm_mbox_loc_perm [bond_1][159][159][4] fire5_norm_mbox_conf_perm [bond_1][159][159][2] fire7_norm_mbox_loc_perm [bond_1][79][79][4] fire7_norm_mbox_conf_perm [bond_1][79][79][2] fire9_norm_mbox_loc_perm [bond_1][39][39][4] fire9_norm_mbox_conf_perm [bond_1][39][39][2] fc7_mbox_loc_perm [bond_1][20][20][4] fc7_mbox_conf_perm [bond_1][20][20][2] conv6_2_mbox_loc_perm [bond_1][10][10][4] conv6_2_mbox_conf_perm [bond_1][10][10][2] conv7_2_mbox_loc_perm [bond_1][5][5][4] conv7_2_mbox_conf_perm [bond_1][5][5][2] 
+Report_flag: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+Order: 0
+Layer_cnt: 91
+

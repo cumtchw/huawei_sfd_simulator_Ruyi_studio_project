@@ -1,0 +1,301 @@
+=============== ibd para of data ===============
+IBDParaTableItem
+[m_din_width: 640] [m_align_bytes: 40] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of conv1_sq ===============
+IBDParaTableItem
+[m_din_width: 639] [m_align_bytes: 40] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 40] [m_width_step: 2] 
+=============== ibd para of pool1_sq ===============
+IBDParaTableItem
+[m_din_width: 1276] [m_align_bytes: 80] [m_din_w_ram_offset: 4] [m_din_h_ram_offset: 80] [m_width_step: 2] 
+=============== ibd para of fire2/squeeze1x1 ===============
+IBDParaTableItem
+[m_din_width: 636] [m_align_bytes: 40] [m_din_w_ram_offset: 4] [m_din_h_ram_offset: 40] [m_width_step: 1] 
+=============== ibd para of fire2/expand1x1 ===============
+IBDParaTableItem
+[m_din_width: 636] [m_align_bytes: 40] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 10] [m_width_step: 1] 
+=============== ibd para of fire2/expand3x3 ===============
+IBDParaTableItem
+[m_din_width: 636] [m_align_bytes: 40] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 10] [m_width_step: 1] 
+=============== ibd para of fire2/concat ===============
+=============== ibd para of fire3/squeeze1x1 ===============
+IBDParaTableItem
+[m_din_width: 636] [m_align_bytes: 40] [m_din_w_ram_offset: 4] [m_din_h_ram_offset: 40] [m_width_step: 1] 
+=============== ibd para of fire3/expand1x1 ===============
+IBDParaTableItem
+[m_din_width: 636] [m_align_bytes: 40] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 10] [m_width_step: 1] 
+=============== ibd para of fire3/expand3x3 ===============
+IBDParaTableItem
+[m_din_width: 636] [m_align_bytes: 40] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 10] [m_width_step: 1] 
+=============== ibd para of fire3/concat ===============
+=============== ibd para of fire4/squeeze1x1 ===============
+IBDParaTableItem
+[m_din_width: 636] [m_align_bytes: 40] [m_din_w_ram_offset: 4] [m_din_h_ram_offset: 40] [m_width_step: 1] 
+=============== ibd para of fire4/expand1x1 ===============
+IBDParaTableItem
+[m_din_width: 636] [m_align_bytes: 40] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 10] [m_width_step: 1] 
+=============== ibd para of fire4/expand3x3 ===============
+IBDParaTableItem
+[m_din_width: 636] [m_align_bytes: 40] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 10] [m_width_step: 1] 
+=============== ibd para of fire4/concat ===============
+=============== ibd para of fire5/squeeze1x1 ===============
+IBDParaTableItem
+[m_din_width: 636] [m_align_bytes: 40] [m_din_w_ram_offset: 8] [m_din_h_ram_offset: 80] [m_width_step: 1] 
+=============== ibd para of fire5/expand1x1 ===============
+IBDParaTableItem
+[m_din_width: 636] [m_align_bytes: 40] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 10] [m_width_step: 1] 
+=============== ibd para of fire5/expand3x3 ===============
+IBDParaTableItem
+[m_din_width: 636] [m_align_bytes: 40] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 10] [m_width_step: 1] 
+=============== ibd para of fire5/concat ===============
+=============== ibd para of pool5_sq ===============
+IBDParaTableItem
+[m_din_width: 636] [m_align_bytes: 40] [m_din_w_ram_offset: 8] [m_din_h_ram_offset: 80] [m_width_step: 2] 
+=============== ibd para of fire6/squeeze1x1 ===============
+IBDParaTableItem
+[m_din_width: 316] [m_align_bytes: 20] [m_din_w_ram_offset: 8] [m_din_h_ram_offset: 40] [m_width_step: 1] 
+=============== ibd para of fire6/expand1x1 ===============
+IBDParaTableItem
+[m_din_width: 316] [m_align_bytes: 20] [m_din_w_ram_offset: 2] [m_din_h_ram_offset: 10] [m_width_step: 1] 
+=============== ibd para of fire6/expand3x3 ===============
+IBDParaTableItem
+[m_din_width: 316] [m_align_bytes: 20] [m_din_w_ram_offset: 2] [m_din_h_ram_offset: 10] [m_width_step: 1] 
+=============== ibd para of fire6/concat ===============
+=============== ibd para of fire7/squeeze1x1 ===============
+IBDParaTableItem
+[m_din_width: 316] [m_align_bytes: 20] [m_din_w_ram_offset: 12] [m_din_h_ram_offset: 60] [m_width_step: 1] 
+=============== ibd para of fire7/expand1x1 ===============
+IBDParaTableItem
+[m_din_width: 316] [m_align_bytes: 20] [m_din_w_ram_offset: 2] [m_din_h_ram_offset: 10] [m_width_step: 1] 
+=============== ibd para of fire7/expand3x3 ===============
+IBDParaTableItem
+[m_din_width: 316] [m_align_bytes: 20] [m_din_w_ram_offset: 2] [m_din_h_ram_offset: 10] [m_width_step: 1] 
+=============== ibd para of fire7/concat ===============
+=============== ibd para of pool7_sq ===============
+IBDParaTableItem
+[m_din_width: 316] [m_align_bytes: 20] [m_din_w_ram_offset: 12] [m_din_h_ram_offset: 72] [m_width_step: 2] 
+=============== ibd para of fire8/squeeze1x1 ===============
+IBDParaTableItem
+[m_din_width: 156] [m_align_bytes: 10] [m_din_w_ram_offset: 12] [m_din_h_ram_offset: 36] [m_width_step: 1] 
+=============== ibd para of fire8/expand1x1 ===============
+IBDParaTableItem
+[m_din_width: 156] [m_align_bytes: 10] [m_din_w_ram_offset: 2] [m_din_h_ram_offset: 6] [m_width_step: 1] 
+=============== ibd para of fire8/expand3x3 ===============
+IBDParaTableItem
+[m_din_width: 156] [m_align_bytes: 10] [m_din_w_ram_offset: 2] [m_din_h_ram_offset: 6] [m_width_step: 1] 
+=============== ibd para of fire8/concat ===============
+=============== ibd para of fire9/squeeze1x1 ===============
+IBDParaTableItem
+[m_din_width: 156] [m_align_bytes: 10] [m_din_w_ram_offset: 16] [m_din_h_ram_offset: 48] [m_width_step: 1] 
+=============== ibd para of fire9/expand1x1 ===============
+IBDParaTableItem
+[m_din_width: 156] [m_align_bytes: 10] [m_din_w_ram_offset: 2] [m_din_h_ram_offset: 6] [m_width_step: 1] 
+=============== ibd para of fire9/expand3x3 ===============
+IBDParaTableItem
+[m_din_width: 156] [m_align_bytes: 10] [m_din_w_ram_offset: 2] [m_din_h_ram_offset: 6] [m_width_step: 1] 
+=============== ibd para of fire9/concat ===============
+=============== ibd para of pool5 ===============
+IBDParaTableItem
+[m_din_width: 156] [m_align_bytes: 10] [m_din_w_ram_offset: 16] [m_din_h_ram_offset: 64] [m_width_step: 2] 
+=============== ibd para of fc6 ===============
+IBDParaTableItem
+[m_din_width: 80] [m_align_bytes: 5] [m_din_w_ram_offset: 16] [m_din_h_ram_offset: 32] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 80] [m_align_bytes: 5] [m_din_w_ram_offset: 16] [m_din_h_ram_offset: 32] [m_width_step: 1] 
+=============== ibd para of fc7 ===============
+=============== ibd para of conv6_1 ===============
+IBDParaTableItem
+[m_din_width: 80] [m_align_bytes: 5] [m_din_w_ram_offset: 16] [m_din_h_ram_offset: 32] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 80] [m_align_bytes: 5] [m_din_w_ram_offset: 8] [m_din_h_ram_offset: 16] [m_width_step: 2] 
+=============== ibd para of conv6_2 ===============
+=============== ibd para of conv7_1 ===============
+IBDParaTableItem
+[m_din_width: 40] [m_align_bytes: 3] [m_din_w_ram_offset: 16] [m_din_h_ram_offset: 16] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 40] [m_align_bytes: 3] [m_din_w_ram_offset: 4] [m_din_h_ram_offset: 8] [m_width_step: 2] 
+=============== ibd para of conv7_2 ===============
+=============== ibd para of fire5_norm ===============
+IBDParaTableItem
+[m_din_width: 636] [m_align_bytes: 40] [m_din_w_ram_offset: 32] [m_din_h_ram_offset: 320] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 636] [m_align_bytes: 40] [m_din_w_ram_offset: 32] [m_din_h_ram_offset: 320] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 512] [m_align_bytes: 32] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 512] [m_align_bytes: 32] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 636] [m_align_bytes: 40] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 1908] [m_align_bytes: 120] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 1908] [m_align_bytes: 120] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 512] [m_align_bytes: 32] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 512] [m_align_bytes: 32] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of permute_0 ===============
+IBDParaTableItem
+[m_din_width: 128] [m_align_bytes: 8] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of fire5_norm_mbox_loc ===============
+IBDParaTableItem
+[m_din_width: 159] [m_align_bytes: 10] [m_din_w_ram_offset: 8] [m_din_h_ram_offset: 80] [m_width_step: 1] 
+=============== ibd para of fire5_norm_mbox_loc_perm ===============
+IBDParaTableItem
+[m_din_width: 636] [m_align_bytes: 40] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of fire5_norm_mbox_loc_perm_report_0_0 ===============
+IBDParaTableItem
+[m_din_width: 16] [m_align_bytes: 1] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of fire5_norm_mbox_conf ===============
+IBDParaTableItem
+[m_din_width: 159] [m_align_bytes: 10] [m_din_w_ram_offset: 8] [m_din_h_ram_offset: 80] [m_width_step: 1] 
+=============== ibd para of fire5_norm_mbox_conf_slice ===============
+=============== ibd para of fire5_norm_mbox_conf_maxout_0 ===============
+IBDParaTableItem
+[m_din_width: 159] [m_align_bytes: 10] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of fire5_norm_mbox_conf_maxout ===============
+IBDParaTableItem
+[m_din_width: 159] [m_align_bytes: 10] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of fire5_norm_mbox_conf_out_bridge_0 ===============
+IBDParaTableItem
+[m_din_width: 159] [m_align_bytes: 10] [m_din_w_ram_offset: 1] [m_din_h_ram_offset: 10] [m_width_step: 1] 
+=============== ibd para of fire5_norm_mbox_conf_out ===============
+=============== ibd para of fire5_norm_mbox_conf_perm ===============
+IBDParaTableItem
+[m_din_width: 636] [m_align_bytes: 40] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of fire5_norm_mbox_conf_perm_report_0_1 ===============
+IBDParaTableItem
+[m_din_width: 8] [m_align_bytes: 1] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of fire7_norm ===============
+IBDParaTableItem
+[m_din_width: 316] [m_align_bytes: 20] [m_din_w_ram_offset: 48] [m_din_h_ram_offset: 240] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 316] [m_align_bytes: 20] [m_din_w_ram_offset: 48] [m_din_h_ram_offset: 240] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 768] [m_align_bytes: 48] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 768] [m_align_bytes: 48] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 316] [m_align_bytes: 20] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 1264] [m_align_bytes: 79] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 948] [m_align_bytes: 60] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 768] [m_align_bytes: 48] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 768] [m_align_bytes: 48] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of permute_1 ===============
+IBDParaTableItem
+[m_din_width: 192] [m_align_bytes: 12] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of fire7_norm_mbox_loc ===============
+IBDParaTableItem
+[m_din_width: 79] [m_align_bytes: 5] [m_din_w_ram_offset: 12] [m_din_h_ram_offset: 60] [m_width_step: 1] 
+=============== ibd para of fire7_norm_mbox_loc_perm ===============
+IBDParaTableItem
+[m_din_width: 316] [m_align_bytes: 20] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of fire7_norm_mbox_loc_perm_report_0_2 ===============
+IBDParaTableItem
+[m_din_width: 16] [m_align_bytes: 1] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of fire7_norm_mbox_conf ===============
+IBDParaTableItem
+[m_din_width: 79] [m_align_bytes: 5] [m_din_w_ram_offset: 12] [m_din_h_ram_offset: 60] [m_width_step: 1] 
+=============== ibd para of fire7_norm_mbox_conf_perm ===============
+IBDParaTableItem
+[m_din_width: 316] [m_align_bytes: 20] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of fire7_norm_mbox_conf_perm_report_0_3 ===============
+IBDParaTableItem
+[m_din_width: 8] [m_align_bytes: 1] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of fire9_norm ===============
+IBDParaTableItem
+[m_din_width: 156] [m_align_bytes: 10] [m_din_w_ram_offset: 64] [m_din_h_ram_offset: 192] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 156] [m_align_bytes: 10] [m_din_w_ram_offset: 64] [m_din_h_ram_offset: 192] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 1024] [m_align_bytes: 64] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 1024] [m_align_bytes: 64] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 156] [m_align_bytes: 10] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 780] [m_align_bytes: 49] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 624] [m_align_bytes: 39] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 1024] [m_align_bytes: 64] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+IBDParaTableItem
+[m_din_width: 1024] [m_align_bytes: 64] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of permute_2 ===============
+IBDParaTableItem
+[m_din_width: 256] [m_align_bytes: 16] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of fire9_norm_mbox_loc ===============
+IBDParaTableItem
+[m_din_width: 39] [m_align_bytes: 3] [m_din_w_ram_offset: 16] [m_din_h_ram_offset: 48] [m_width_step: 1] 
+=============== ibd para of fire9_norm_mbox_loc_perm ===============
+IBDParaTableItem
+[m_din_width: 156] [m_align_bytes: 10] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of fire9_norm_mbox_loc_perm_report_0_4 ===============
+IBDParaTableItem
+[m_din_width: 16] [m_align_bytes: 1] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of fire9_norm_mbox_conf ===============
+IBDParaTableItem
+[m_din_width: 39] [m_align_bytes: 3] [m_din_w_ram_offset: 16] [m_din_h_ram_offset: 48] [m_width_step: 1] 
+=============== ibd para of fire9_norm_mbox_conf_perm ===============
+IBDParaTableItem
+[m_din_width: 156] [m_align_bytes: 10] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of fire9_norm_mbox_conf_perm_report_0_5 ===============
+IBDParaTableItem
+[m_din_width: 8] [m_align_bytes: 1] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of fc7_mbox_loc ===============
+IBDParaTableItem
+[m_din_width: 80] [m_align_bytes: 5] [m_din_w_ram_offset: 16] [m_din_h_ram_offset: 32] [m_width_step: 1] 
+=============== ibd para of fc7_mbox_loc_perm ===============
+IBDParaTableItem
+[m_din_width: 80] [m_align_bytes: 5] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of fc7_mbox_loc_perm_report_0_6 ===============
+IBDParaTableItem
+[m_din_width: 16] [m_align_bytes: 1] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of fc7_mbox_conf ===============
+IBDParaTableItem
+[m_din_width: 80] [m_align_bytes: 5] [m_din_w_ram_offset: 16] [m_din_h_ram_offset: 32] [m_width_step: 1] 
+=============== ibd para of fc7_mbox_conf_perm ===============
+IBDParaTableItem
+[m_din_width: 80] [m_align_bytes: 5] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of fc7_mbox_conf_perm_report_0_7 ===============
+IBDParaTableItem
+[m_din_width: 8] [m_align_bytes: 1] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of conv6_2_mbox_loc ===============
+IBDParaTableItem
+[m_din_width: 40] [m_align_bytes: 3] [m_din_w_ram_offset: 16] [m_din_h_ram_offset: 16] [m_width_step: 1] 
+=============== ibd para of conv6_2_mbox_loc_perm ===============
+IBDParaTableItem
+[m_din_width: 40] [m_align_bytes: 3] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of conv6_2_mbox_loc_perm_report_0_8 ===============
+IBDParaTableItem
+[m_din_width: 16] [m_align_bytes: 1] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of conv6_2_mbox_conf ===============
+IBDParaTableItem
+[m_din_width: 40] [m_align_bytes: 3] [m_din_w_ram_offset: 16] [m_din_h_ram_offset: 16] [m_width_step: 1] 
+=============== ibd para of conv6_2_mbox_conf_perm ===============
+IBDParaTableItem
+[m_din_width: 40] [m_align_bytes: 3] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of conv6_2_mbox_conf_perm_report_0_9 ===============
+IBDParaTableItem
+[m_din_width: 8] [m_align_bytes: 1] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of conv7_2_mbox_loc ===============
+IBDParaTableItem
+[m_din_width: 20] [m_align_bytes: 2] [m_din_w_ram_offset: 8] [m_din_h_ram_offset: 8] [m_width_step: 1] 
+=============== ibd para of conv7_2_mbox_loc_perm ===============
+IBDParaTableItem
+[m_din_width: 20] [m_align_bytes: 2] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of conv7_2_mbox_loc_perm_report_0_10 ===============
+IBDParaTableItem
+[m_din_width: 16] [m_align_bytes: 1] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of conv7_2_mbox_conf ===============
+IBDParaTableItem
+[m_din_width: 20] [m_align_bytes: 2] [m_din_w_ram_offset: 8] [m_din_h_ram_offset: 8] [m_width_step: 1] 
+=============== ibd para of conv7_2_mbox_conf_perm ===============
+IBDParaTableItem
+[m_din_width: 20] [m_align_bytes: 2] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 
+=============== ibd para of conv7_2_mbox_conf_perm_report_0_11 ===============
+IBDParaTableItem
+[m_din_width: 8] [m_align_bytes: 1] [m_din_w_ram_offset: 0] [m_din_h_ram_offset: 0] [m_width_step: 1] 

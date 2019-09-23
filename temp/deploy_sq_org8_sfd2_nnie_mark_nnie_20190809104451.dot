@@ -1,0 +1,119 @@
+digraph cnn_tree {
+data
+[
+        shape = box
+        label = " name : data"
+];
+data -> conv1_sq;
+conv1_sq
+[
+        shape = box
+        label = " name : conv1_sq\n name : relu_conv1_sq"
+];
+conv1_sq -> pool1_sq;
+pool1_sq
+[
+        shape = box
+        label = " name : pool1_sq\n type : Pooling\n bottom : conv1_sq\n top : pool1_sq"
+];
+pool1_sq -> fire2_squeeze1x1;
+fire2_squeeze1x1
+[
+        shape = box
+        label = " name : fire2_squeeze1x1\n name : fire2_relu_squeeze1x1"
+];
+fire2_squeeze1x1 -> fire2_expand1x1;
+fire2_squeeze1x1 -> fire2_expand3x3;
+fire2_expand1x1
+[
+        shape = box
+        label = " name : fire2_expand1x1\n name : fire2_relu_expand1x1"
+];
+fire2_expand1x1 -> fire2_concat;
+fire2_expand3x3
+[
+        shape = box
+        label = " name : fire2_expand3x3\n name : fire2_relu_expand3x3"
+];
+fire2_expand3x3 -> fire2_concat;
+fire2_concat
+[
+        shape = box
+        label = " name : fire2_concat\n type : Concat\n bottom : fire2_expand1x1\n bottom : fire2_expand3x3\n top : fire2_concat"
+];
+fire2_concat -> fire3_squeeze1x1;
+fire3_squeeze1x1
+[
+        shape = box
+        label = " name : fire3_squeeze1x1\n name : fire3_relu_squeeze1x1"
+];
+fire3_squeeze1x1 -> fire3_expand1x1;
+fire3_squeeze1x1 -> fire3_expand3x3;
+fire3_expand1x1
+[
+        shape = box
+        label = " name : fire3_expand1x1\n name : fire3_relu_expand1x1"
+];
+fire3_expand1x1 -> fire3_concat;
+fire3_expand3x3
+[
+        shape = box
+        label = " name : fire3_expand3x3\n name : fire3_relu_expand3x3"
+];
+fire3_expand3x3 -> fire3_concat;
+fire3_concat
+[
+        shape = box
+        label = " name : fire3_concat\n type : Concat\n bottom : fire3_expand1x1\n bottom : fire3_expand3x3\n top : fire3_concat"
+];
+fire3_concat -> fire4_squeeze1x1;
+fire4_squeeze1x1
+[
+        shape = box
+        label = " name : fire4_squeeze1x1\n name : fire4_relu_squeeze1x1"
+];
+fire4_squeeze1x1 -> fire4_expand1x1;
+fire4_squeeze1x1 -> fire4_expand3x3;
+fire4_expand1x1
+[
+        shape = box
+        label = " name : fire4_expand1x1\n name : fire4_relu_expand1x1"
+];
+fire4_expand1x1 -> fire4_concat;
+fire4_expand3x3
+[
+        shape = box
+        label = " name : fire4_expand3x3\n name : fire4_relu_expand3x3"
+];
+fire4_expand3x3 -> fire4_concat;
+fire4_concat
+[
+        shape = box
+        label = " name : fire4_concat\n type : Concat\n bottom : fire4_expand1x1\n bottom : fire4_expand3x3\n top : fire4_concat"
+];
+fire4_concat -> fire5_squeeze1x1;
+fire5_squeeze1x1
+[
+        shape = box
+        label = " name : fire5_squeeze1x1\n name : fire5_relu_squeeze1x1"
+];
+fire5_squeeze1x1 -> fire5_expand1x1;
+fire5_squeeze1x1 -> fire5_expand3x3;
+fire5_expand1x1
+[
+        shape = box
+        label = " name : fire5_expand1x1\n name : fire5_relu_expand1x1"
+];
+fire5_expand1x1 -> fire5_concat;
+fire5_expand3x3
+[
+        shape = box
+        label = " name : fire5_expand3x3\n name : fire5_relu_expand3x3"
+];
+fire5_expand3x3 -> fire5_concat;
+fire5_concat
+[
+        shape = box
+        label = " name : fire5_concat\n type : Concat\n bottom : fire5_expand1x1\n bottom : fire5_expand3x3\n top : fire5_concat"
+];
+}

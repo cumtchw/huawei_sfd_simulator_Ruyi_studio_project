@@ -1,0 +1,30 @@
+
+**********************************************************
+ERROR: file: MemInfo::memoryManager  line: 2027
+Cannot find a piece of available memory for current layer, caused by bigger batch_num or deeper network.
+
+
+
+**********************************************************
+ERROR: file: MemInfo::memoryManager  line: 1875
+ERROR: RUN FAILURE in line 1875. Return = 655367
+
+
+
+**********************************************************
+ERROR: file: CompilerManager::compile_sim  line: 373
+ERROR: RUN FAILURE in line 373. Return = 655367
+
+
+
+**********************************************************
+ERROR: file: iFEPCompile  line: 128
+ERROR: RUN FAILURE in line 128. Return = 655367
+
+
+
+**********************************************************
+ERROR: file: main  line: 123
+ERROR: RUN FAILURE in line 123. Return = 655367
+
+

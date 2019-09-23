@@ -1,0 +1,13 @@
+digraph cnn_tree {
+data
+[
+        shape = box
+        label = " name : data"
+];
+data -> conv1_sq;
+conv1_sq
+[
+        shape = box
+        label = " name : conv1_sq\n type : Convolution\n bottom : data\n top : conv1_sq"
+];
+}

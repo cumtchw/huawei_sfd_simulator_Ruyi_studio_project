@@ -1,0 +1,655 @@
+******************** begin parse prototxt to net process **********************
+kernel size: height*width is  [3*3].
+stride size: height*width is  [2*2].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [2*2].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [1*1].
+stride size: height*width is  [1*1].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [1*1].
+stride size: height*width is  [1*1].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [1*1].
+stride size: height*width is  [1*1].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [1*1].
+stride size: height*width is  [1*1].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [1*1].
+stride size: height*width is  [1*1].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [1*1].
+stride size: height*width is  [1*1].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [1*1].
+stride size: height*width is  [1*1].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [1*1].
+stride size: height*width is  [1*1].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [2*2].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [1*1].
+stride size: height*width is  [1*1].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [1*1].
+stride size: height*width is  [1*1].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [1*1].
+stride size: height*width is  [1*1].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [1*1].
+stride size: height*width is  [1*1].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [2*2].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [1*1].
+stride size: height*width is  [1*1].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [1*1].
+stride size: height*width is  [1*1].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [1*1].
+stride size: height*width is  [1*1].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [1*1].
+stride size: height*width is  [1*1].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [2*2].
+stride size: height*width is  [2*2].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [1*1].
+stride size: height*width is  [1*1].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [1*1].
+stride size: height*width is  [1*1].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [2*2].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [1*1].
+stride size: height*width is  [1*1].
+pad size: height*width is  [0*0].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [2*2].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+kernel size: height*width is  [3*3].
+stride size: height*width is  [1*1].
+pad size: height*width is  [1*1].
+******************** parse prototxt to net process end **********************
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 3, ch of last slice 0
+data slice num 2, ch per slice 272, ch of last slice 3
+split info of layer conv1_sq...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+3	3	0
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 64, ch of last slice 0
+data slice num 2, ch per slice 3264, ch of last slice 64
+split info of layer fire2/squeeze1x1...
+kernel h 1, w 1
+kernel 1, w 1
+kernel extent h 1, extent w 1
+total	channel	remainder
+64	64	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 8, ch of last slice 0
+data slice num 2, ch per slice 3264, ch of last slice 8
+split info of layer fire2/expand1x1...
+kernel h 1, w 1
+kernel 1, w 1
+kernel extent h 1, extent w 1
+total	channel	remainder
+8	8	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 8, ch of last slice 0
+data slice num 2, ch per slice 1088, ch of last slice 8
+split info of layer fire2/expand3x3...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+8	8	0
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 64, ch of last slice 0
+data slice num 2, ch per slice 3264, ch of last slice 64
+split info of layer fire3/squeeze1x1...
+kernel h 1, w 1
+kernel 1, w 1
+kernel extent h 1, extent w 1
+total	channel	remainder
+64	64	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 8, ch of last slice 0
+data slice num 2, ch per slice 3264, ch of last slice 8
+split info of layer fire3/expand1x1...
+kernel h 1, w 1
+kernel 1, w 1
+kernel extent h 1, extent w 1
+total	channel	remainder
+8	8	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 8, ch of last slice 0
+data slice num 2, ch per slice 1088, ch of last slice 8
+split info of layer fire3/expand3x3...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+8	8	0
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 64, ch of last slice 0
+data slice num 2, ch per slice 3264, ch of last slice 64
+split info of layer fire4/squeeze1x1...
+kernel h 1, w 1
+kernel 1, w 1
+kernel extent h 1, extent w 1
+total	channel	remainder
+64	64	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 16, ch of last slice 0
+data slice num 2, ch per slice 3264, ch of last slice 16
+split info of layer fire4/expand1x1...
+kernel h 1, w 1
+kernel 1, w 1
+kernel extent h 1, extent w 1
+total	channel	remainder
+16	16	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 16, ch of last slice 0
+data slice num 2, ch per slice 1088, ch of last slice 16
+split info of layer fire4/expand3x3...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+16	16	0
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 128, ch of last slice 0
+data slice num 2, ch per slice 3264, ch of last slice 128
+split info of layer fire5/squeeze1x1...
+kernel h 1, w 1
+kernel 1, w 1
+kernel extent h 1, extent w 1
+total	channel	remainder
+128	128	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 16, ch of last slice 0
+data slice num 2, ch per slice 3264, ch of last slice 16
+split info of layer fire5/expand1x1...
+kernel h 1, w 1
+kernel 1, w 1
+kernel extent h 1, extent w 1
+total	channel	remainder
+16	16	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 16, ch of last slice 0
+data slice num 2, ch per slice 1088, ch of last slice 16
+split info of layer fire5/expand3x3...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+16	16	0
+nettype is not conv or deconv!
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 128, ch of last slice 0
+data slice num 2, ch per slice 6544, ch of last slice 128
+split info of layer fire6/squeeze1x1...
+kernel h 1, w 1
+kernel 1, w 1
+kernel extent h 1, extent w 1
+total	channel	remainder
+128	128	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 24, ch of last slice 0
+data slice num 2, ch per slice 6544, ch of last slice 24
+split info of layer fire6/expand1x1...
+kernel h 1, w 1
+kernel 1, w 1
+kernel extent h 1, extent w 1
+total	channel	remainder
+24	24	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 24, ch of last slice 0
+data slice num 2, ch per slice 2176, ch of last slice 24
+split info of layer fire6/expand3x3...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+24	24	0
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 192, ch of last slice 0
+data slice num 2, ch per slice 6544, ch of last slice 192
+split info of layer fire7/squeeze1x1...
+kernel h 1, w 1
+kernel 1, w 1
+kernel extent h 1, extent w 1
+total	channel	remainder
+192	192	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 24, ch of last slice 0
+data slice num 2, ch per slice 6544, ch of last slice 24
+split info of layer fire7/expand1x1...
+kernel h 1, w 1
+kernel 1, w 1
+kernel extent h 1, extent w 1
+total	channel	remainder
+24	24	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 24, ch of last slice 0
+data slice num 2, ch per slice 2176, ch of last slice 24
+split info of layer fire7/expand3x3...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+24	24	0
+nettype is not conv or deconv!
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 192, ch of last slice 0
+data slice num 2, ch per slice 10912, ch of last slice 192
+split info of layer fire8/squeeze1x1...
+kernel h 1, w 1
+kernel 1, w 1
+kernel extent h 1, extent w 1
+total	channel	remainder
+192	192	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 32, ch of last slice 0
+data slice num 2, ch per slice 10912, ch of last slice 32
+split info of layer fire8/expand1x1...
+kernel h 1, w 1
+kernel 1, w 1
+kernel extent h 1, extent w 1
+total	channel	remainder
+32	32	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 32, ch of last slice 0
+data slice num 2, ch per slice 3632, ch of last slice 32
+split info of layer fire8/expand3x3...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+32	32	0
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 256, ch of last slice 0
+data slice num 2, ch per slice 10912, ch of last slice 256
+split info of layer fire9/squeeze1x1...
+kernel h 1, w 1
+kernel 1, w 1
+kernel extent h 1, extent w 1
+total	channel	remainder
+256	256	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 32, ch of last slice 0
+data slice num 2, ch per slice 10912, ch of last slice 32
+split info of layer fire9/expand1x1...
+kernel h 1, w 1
+kernel 1, w 1
+kernel extent h 1, extent w 1
+total	channel	remainder
+32	32	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 32, ch of last slice 0
+data slice num 2, ch per slice 3632, ch of last slice 32
+split info of layer fire9/expand3x3...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+32	32	0
+nettype is not conv or deconv!
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 256, ch of last slice 0
+data slice num 2, ch per slice 5456, ch of last slice 256
+split info of layer fc6...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+256	256	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 256, ch of last slice 0
+data slice num 2, ch per slice 16384, ch of last slice 256
+split info of layer fc7...
+kernel h 1, w 1
+kernel 1, w 1
+kernel extent h 1, extent w 1
+total	channel	remainder
+256	256	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 256, ch of last slice 0
+data slice num 2, ch per slice 16384, ch of last slice 256
+split info of layer conv6_1...
+kernel h 1, w 1
+kernel 1, w 1
+kernel extent h 1, extent w 1
+total	channel	remainder
+256	256	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 128, ch of last slice 0
+data slice num 2, ch per slice 5456, ch of last slice 128
+split info of layer conv6_2...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+128	128	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 256, ch of last slice 0
+data slice num 2, ch per slice 32768, ch of last slice 256
+split info of layer conv7_1...
+kernel h 1, w 1
+kernel 1, w 1
+kernel extent h 1, extent w 1
+total	channel	remainder
+256	256	0
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 64, ch of last slice 0
+data slice num 2, ch per slice 5456, ch of last slice 64
+split info of layer conv7_2...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+64	64	0
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 128, ch of last slice 0
+data slice num 2, ch per slice 1088, ch of last slice 128
+split info of layer fire5_norm_mbox_loc...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+128	128	0
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 128, ch of last slice 0
+data slice num 2, ch per slice 1088, ch of last slice 128
+split info of layer fire5_norm_mbox_conf...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+128	128	0
+nettype is not conv or deconv!
+nettype is not conv or deconv!
+nettype is not conv or deconv!
+nettype is not conv or deconv!
+nettype is not conv or deconv!
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 192, ch of last slice 0
+data slice num 2, ch per slice 2176, ch of last slice 192
+split info of layer fire7_norm_mbox_loc...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+192	192	0
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 192, ch of last slice 0
+data slice num 2, ch per slice 2176, ch of last slice 192
+split info of layer fire7_norm_mbox_conf...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+192	192	0
+nettype is not conv or deconv!
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 256, ch of last slice 0
+data slice num 2, ch per slice 3632, ch of last slice 256
+split info of layer fire9_norm_mbox_loc...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+256	256	0
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 256, ch of last slice 0
+data slice num 2, ch per slice 3632, ch of last slice 256
+split info of layer fire9_norm_mbox_conf...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+256	256	0
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 256, ch of last slice 0
+data slice num 2, ch per slice 5456, ch of last slice 256
+split info of layer fc7_mbox_loc...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+256	256	0
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 256, ch of last slice 0
+data slice num 2, ch per slice 5456, ch of last slice 256
+split info of layer fc7_mbox_conf...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+256	256	0
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 256, ch of last slice 0
+data slice num 2, ch per slice 10912, ch of last slice 256
+split info of layer conv6_2_mbox_loc...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+256	256	0
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 256, ch of last slice 0
+data slice num 2, ch per slice 10912, ch of last slice 256
+split info of layer conv6_2_mbox_conf...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+256	256	0
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 128, ch of last slice 0
+data slice num 2, ch per slice 10912, ch of last slice 128
+split info of layer conv7_2_mbox_loc...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+128	128	0
+nettype is not conv or deconv!
+info of kernel
+kernel:slice_num=1
+data:slice_num=1
+kernel slice num 2, ch per slice 128, ch of last slice 0
+data slice num 2, ch per slice 10912, ch of last slice 128
+split info of layer conv7_2_mbox_conf...
+kernel h 3, w 3
+kernel 3, w 3
+kernel extent h 3, extent w 3
+total	channel	remainder
+128	128	0
+nettype is not conv or deconv!
+ ControlBlockNode::setNodeVec function
+ControlBlockNode::genInstForLoopBegin function starts
+ControlBlockNode::genInstForLoopBegin function starts
+ControlBlockNode::genInstForLoopBegin function starts
+ControlBlockNode::genInstForLoopBegin function starts
+ControlBlockNode::genInstForTaskEnd: set FLAG_TASK_FINISH true !
+Compiler process complete!
+
