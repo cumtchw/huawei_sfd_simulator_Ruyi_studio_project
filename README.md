@@ -1,0 +1,3 @@
+# huawei_sfd_simulator_Ruyi_studio_project
+华为X2221智能相机的ruyistudio仿真工程，仿真完之后可以在华为X2221-CL相机里面的3559A芯片上的NNIE上面跑.
+后面有类似的项目，可以直接把这个工程导入到ruyi studio软件中，这样可以省略配置的过程。
